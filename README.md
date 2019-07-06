@@ -1,2 +1,2 @@
-# JS-Practice
+# JS Practice
 JavaScript problem solving practice 💪🔥
