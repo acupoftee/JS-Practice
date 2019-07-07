@@ -1,4 +1,7 @@
 # [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) Solution
+
+*[Check this explanation out on LeetCode](https://leetcode.com/problems/unique-morse-code-words/discuss/329303/javascript-one-line-solution-w-explanation)* ❤️
+
 This solution uses [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) Since we're changing every element in the array for our solution.
 
 **Approach**:
