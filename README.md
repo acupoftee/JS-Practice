@@ -42,6 +42,11 @@ const uniqueMorseRepresentations = words => {
     // SEE: https://www.ecma-international.org/ecma-262/6.0/#sec-get-set.prototype.size
     return [...new Set(words.map(word => word.split('').map(letter => alphabet[letter]).join('')))].length
 }
-```
+``` 
+
+### Example README Explanation
+<p align="center">
+<img src="https://thumbs.gfycat.com/DismalLinearAstarte-size_restricted.gif" height="500">
+</p>
 
 Feedback and discussions about the solutions and its presentation are always welcome! Feel free to open an issue with questions or comments about any problems as this will help others learn as well. Thank you for following this JavaScript journey! 
