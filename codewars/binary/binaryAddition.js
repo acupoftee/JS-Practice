@@ -1,8 +1,3 @@
-// Implement a function that adds two numbers 
-// together and returns their sum in binary. 
-// The conversion can be done before, or after the addition.
-// The binary number returned should be a string.
-
 /**
  * Returns the sum of two integers in the form of a 
  * binary string. Time complexity: O(n) time
