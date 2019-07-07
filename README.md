@@ -3,12 +3,18 @@
 <h1>The JavaScript Dojo ✨</h1>
 </p>
 
-This repo is for JavaScript problem solving practice during the 2019 General Assembly Software Engineering Immersive 💪🔥The goal of this is to understand the nuances of JavaScript problem solving, gain a deeper understanding of this super cool language, and **explain solutions to anyone regardless of technical background** 💕 
+This repo is for JavaScript problem solving practice during *General Assembly's 2019 Software Engineering Immersive* and beyond. 💪🔥The goals for this are as follows: 
 
-The latter the most important goal because not only it exemplify understanding of these concepts, it also makes computer science more inclusive for all!
+* Understand nuances in JavaScript problem solving. 
+* Gain a deeper understanding of this super cool language.
+* Apply JavaScript best practices.
+* Break down complex topics with a direct and methodical approach.
+* ***Explain solutions to anyone regardless of technical background.*** 
+
+The last goal the most important goal because not only does this exemplify understanding of these concepts, it also helps make computer science more inclusive for all! 💕 
 
 ## Problems and Solutions
-Problems will come from various sites like CodeWars, LeetCode, Hackerrank, and GeeksForGeeks. Each solution will describe the approach thoroughly and discuss tradeoffs and runtime. 
+Problems will come from various sites like CodeWars, LeetCode, Hackerrank,Cracking the Coding Interview, and GeeksForGeeks. Each solution will describe the approach thoroughly and discuss tradeoffs and runtime. 
 
 ### Example Solution Discussion 
 ```js
@@ -23,8 +29,8 @@ const uniqueMorseRepresentations = words => {
     // 2. Inside our outer map method, we map each letter to a morse rep
     // 3. We attach each morse letter to create one word
 
-    // When step 3 is finished, we add the word to the set. The spread operator 
-    // is used to create an array with the set entires and return the length. 
+    // When step 3 is finished, we add the word to the set. 
+    // The spread operator is used to create an array with the set entires and return the length. 
 
     // The lookup time for an array's length will be faster than using the Set.prototype.size
     // as this is a function which counts the unique elements.
@@ -36,4 +42,4 @@ const uniqueMorseRepresentations = words => {
 }
 ```
 
-Feedback and discussions are always welcome! Thank you for joining me on this JavaScript journey!
+Feedback and discussions about the solutions and its presentation are always welcome! Feel free to open an issue with questions or comments about any problems as this will help others learn as well. Thank you for following this JavaScript journey! 
