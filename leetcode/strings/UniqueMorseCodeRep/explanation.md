@@ -34,7 +34,7 @@ We'll use the example `words = ['gin', 'zen', 'gig', 'msg']` to explain how this
 1. For each word, we'll split the characters of each word with our first use of `map()`. We'll have something like this after looking at one word:
 
 	```js  
-	['g', 'i', 'n'], 'zen', 'gig', 'msg'] 
+	[ ['g', 'i', 'n'], 'zen', 'gig', 'msg' ] 
 	 ```
 	
 2. We'll use `map()`  again inside our first map method. We'll do this to look at each letter of the inner array to create a Morse Code word. 
