@@ -19,11 +19,13 @@ Problems will come from various sites like CodeWars, LeetCode, Hackerrank,Cracki
 ### Example Solution Discussion 
 ```js
 /**
+ * Returns the number of unique morse code representations.
  * @param {string[]} words the word array to convert to morse
  * @return {number} the length of unique morse representations
  */
 const uniqueMorseRepresentations = words => {  
-    // The Alggorithm is as follows: 
+    // For this problem, we'll find the number of unique morse code representations.
+    // The Algorithm is as follows: 
 
     // 1. We split the characters of each word with our first use of map
     // 2. Inside our outer map method, we map each letter to a morse rep
