@@ -6,13 +6,12 @@ const moveZeros = arr => {
     const zeroCount = arr.length - noZeroes.length
 
     // 3. for each zero filtered, push them to the end
-    while (zeroCount > 0) {
-      noZeroes.push(0)
-      zeroCount--
+    for (let i = 0; i < zeroCount; i++) {
+      zeroes.push(0)
     }
 
     return noZeroes
-  }
+}
 
 const moveZeroesTwo = arr => {
   // 1. Filter out zeroes
