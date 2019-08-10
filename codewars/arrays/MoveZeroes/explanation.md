@@ -36,7 +36,7 @@ const moveZeros = arr => {
 **Explanation**: 
 This is a straight forward and readable approach to the problem that gets the job done! 💪 Lets use the example `[1, 0, 0, false, "hi hello", 4, 0, 7, true]`
 
-1. We'll filter out all zeroes using `Array.filter()`. This will give us a **new** array without the zeroes if we tell the filter that we don't want any elements that equal 0:
+1. We'll filter out all zeroes using `Array.filter()`. To keep track of the new array without the zeroes, we'll save it to a constant called `noZeroes`. This will give us a **new** array without the zeroes if we tell the filter that we don't want any elements that equal 0:
    ```js
    const noZeroes = arr.filter(x => x !== 0)
    ```
@@ -48,21 +48,18 @@ This is a straight forward and readable approach to the problem that gets the jo
     ```
 
 
-2. We'll count how many zeroes we took out. This count determine how many zeroes we need to add during our next step. Our inital array `arr` has 3 zeroes. We can get this by subtracting the length of our filtered array `noZeroes` with 6 elements from `arr` with 9 elements like so:
+2. We'll count how many zeroes we took out. This count determines how many zeroes we need to add during our next step. Our inital array `arr` has 3 zeroes. We can get this by subtracting the length of our new array `noZeroes` with 6 elements from `arr` with 9 elements like so:
    
    ```js
    // 9 elements - 6 elements = 3 zeroes to add
     const zeroCount = arr.length - noZeroes.length
    ```
     
-3. For each zero, we want to add it to the end of the array. We'll do this using a for loop, and we'll append these elements using `Array.push()`. Going back to our example, since we have 3 zeores, our loop will append a zero 3 times. When that's done, we'll return this array:
+3. For each zero, we want to add it to the end of our final array. We'll do this using a for loop, and we'll append these elements using `Array.push()`. Going back to our example, since we have 3 zeores, our loop will append a zero 3 times. When that's done, we'll return this array:
 
     ```js
     [1, false, "hi hello", 4, 7, true, 0, 0, 0]
     ```
-
-Another approach to this solution is using `Array.fill()` to create an array of zeroes and use `Array.concat(arr)` to add the zero array to the filtered array. That way, we don't need to use a for loop
-
 
 **Solution 2**: Using  `concat()` and `fill()`
 ```js
@@ -81,3 +78,5 @@ const moveZeroesTwo = arr => {
   return noZeroes.concat(Array(zeroCount).fill(0))
 }
 ```
+
+Another approach to this solution is using `Array.fill()` to create an array of zeroes and use `Array.concat(arr)` to add the zero array to the filtered array. That way, we don't need to use a for loop.
