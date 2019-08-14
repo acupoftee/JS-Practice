@@ -1,3 +1,7 @@
+/**
+ * @param {Number} num an integer
+ * @returns {Number} an integer with squared digits
+ */
 const squareDigits = num => {
     // Get an array of digits
     const digits = num.toString().split('')
