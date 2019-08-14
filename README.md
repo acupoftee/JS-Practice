@@ -14,7 +14,7 @@ This repo is for JavaScript problem solving practice during *General Assembly's 
 The last goal the most important goal because not only does this exemplify understanding of these concepts, it also helps make computer science more inclusive for all! 💕 
 
 ## Problems and Solutions
-Problems will come from various sites like CodeWars, LeetCode, Hackerrank,Cracking the Coding Interview, and GeeksForGeeks. Each solution will describe the approach thoroughly and discuss tradeoffs and runtime. 
+Problems will come from various sites like CodeWars, LeetCode, Hackerrank, Cracking the Coding Interview, and GeeksForGeeks. Each solution will describe the approach thoroughly and discuss tradeoffs and runtime. Solutions and explanations are updated weekly. 
 
 ### Example Solution Discussion 
 ```js
