@@ -1,5 +1,5 @@
 /**
- * @param {string} address the starter IP address 
+ * @param {string} address the starter IP address
  * @return {string} The new IP address
  */
 const defangIPaddr = address => {
@@ -7,7 +7,7 @@ const defangIPaddr = address => {
 }
 
 /**
- * @param {string} address the starter IP address 
+ * @param {string} address the starter IP address
  * @return {string} The new IP address
  */
 const defangIPaddrTwo = address => {

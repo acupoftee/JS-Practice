@@ -73,3 +73,25 @@ This is a good problem to apply JavaScript's string methods to split the digits 
 
 
 The time complexity for this solution is O(n) since we are squaring each digit in the array. The space complexity is O(n) since we are creating a new array using `.split('')`.
+
+
+Solution 2's a fun one liner one!
+**Solution 1**:
+```js
+/**
+ * Returns a new number with squared digits
+ * Time complexity: O(n), space complexity: O(n)
+ * @param {Number} num an integer
+ * @returns {Number} an integer with squared digits
+ */
+const squareDigits = num => {
+    return +Array.from(num.toString(), n => n * n).join('')
+}
+```
+
+Now what in the world is this one doing?
+
+* Array.from creates an array from our input
+* Inside this method, we convert our number into a string. This allows Array.from to create an array of String.
+* Then, we use the otional mapping argument, where we'll square our digits
+* After, we'll join each digit ,and convert the number with the + operator
